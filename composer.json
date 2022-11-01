@@ -1,9 +1,15 @@
 {
   "name": "huyi/ant-cloud",
   "description": "ant-cloud-sdk",
-  "type": "1",
+  "authors": [
+    {
+      "name": "liucx",
+      "email": "tech@huyi.cn"
+    }
+  ],
+  "type": "project",
   "require": {
-    "php": "^7.0"
+    "php": ">=7.0"
   },
   "license": "Apache-2.0",
   "minimum-stability": "dev",
@@ -11,11 +17,5 @@
     "psr-4": {
       "AntCloudSDKCore\\": "src/AntCloudSDKCore"
     }
-  },
-  "authors": [
-    {
-      "name": "liucx",
-      "email": "tech@huyi.cn"
-    }
-  ]
+  }
 }
